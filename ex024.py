@@ -1,0 +1,7 @@
+nome = str(input('Digite um nome:'))
+nomeSemEspacos = nome.replace(' ', '')
+nomeDividido = nome.split()
+print('Nome todo maiúsculo: ' + nome.upper())
+print('Nome todo minúsculo: ' + nome.lower())
+print('Total de letras: ' + str(len(nomeSemEspacos)))
+print('Primeiro nome: ' + nomeDividido[0] + ' tem {} letras.'.format(len(nomeDividido[0])))

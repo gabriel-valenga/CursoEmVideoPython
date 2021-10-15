@@ -1,0 +1,6 @@
+print('Conversor Real -> Dólar')
+quantiaDolarString = input('Qual a quantia em dólares que deseja comprar?')
+cotacaoDolarString = input('Qual a cotação atual do dólar?')
+quantiaDolar = float(quantiaDolarString.replace(',','.'))
+cotacaoDolar = float(cotacaoDolarString.replace(',','.'))
+print('Você precisará de {:.2f} reais para comprar {:.2f} em dólares'.format((quantiaDolar*cotacaoDolar),quantiaDolar).replace('.',','))

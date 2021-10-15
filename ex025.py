@@ -1,0 +1,6 @@
+numero = input('Digite um número de 0 até 9999:')
+numero = numero.zfill(4)
+print('unidade: ' + numero[3])
+print('dezena: ' + numero[2])
+print('centena: ' + numero[1])
+print('milhar: ' + numero[0])

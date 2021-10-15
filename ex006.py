@@ -1,0 +1,5 @@
+entrada = input('Digite algo: ')
+print('Você digitou: {}'.format(entrada))
+print('Tipo primitivo: ',type(entrada))
+print('É numérico: ',entrada.isnumeric())
+print('É alpha: ', entrada.isalpha())
